@@ -13,7 +13,7 @@ const App = () => {
     const [headerText, setHeaderText] = useState('Name it!')
     const [headerExpanded, setHeaderExpanded] = useState(true)
     const [suggestedNames, setSuggestedNames] = useState([])
-    const [tipsText, setTipsText] = useState(["TIP: Input a letter or word to get new domain ideas & Click on your choicest for confirmation on it's availability."])
+    const [tipsText, setTipsText] = useState(["TIP: Input a letter or word to get new domain name ideas & Click on your choicest for confirmation on it's availability."])
 
     const handleInputChange = (inputText) => {
         setHeaderExpanded(!inputText)
